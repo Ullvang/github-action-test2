@@ -10,11 +10,6 @@ on:
     paths:
       - "**.js"
       - "!filename.js"
-  # repository_dispatch:
-  # schedule:
-  #   - cron: "0/5 * * * *"
-  #   - cron: "0/6 * * * *"
-  # push:
   pull_request:
     types: [closed, assigned, opened, reopened]
 jobs:
