@@ -3,13 +3,6 @@ on:
   push:
     branches:
       - main
-      - "feature/*"
-      - "!feature/featC"
-    tags:
-      - v1.*
-    paths:
-      - "**.js"
-      - "!filename.js"
   pull_request:
     types: [closed, assigned, opened, reopened]
 jobs:
