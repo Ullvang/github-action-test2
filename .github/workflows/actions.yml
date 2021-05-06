@@ -1,8 +1,5 @@
 name: Actions Workflow
 on:
-  push:
-    branches:
-      - main
   pull_request:
     types: [closed, assigned, opened, reopened]
 jobs:
